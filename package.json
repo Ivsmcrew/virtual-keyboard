@@ -1,0 +1,24 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "Virtual keyboard task by RS school. Browser implementation of a real keyboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-run": "sass --watch ./assets/sass/main.scss ./page/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivsmcrew/virtual-keyboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivsmcrew/virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/Ivsmcrew/virtual-keyboard#readme",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
