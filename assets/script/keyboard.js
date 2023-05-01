@@ -22,8 +22,8 @@ class Keyboard {
         textarea.className = "textarea";
         textarea.id = "textarea";
         textarea.name = "textarea";
-        textarea.rows = "33";
-        textarea.cols = "100";
+        textarea.rows = "12";
+        textarea.cols = "80";
         document.querySelector(".main").append(textarea);
 
         let sectionKeyboard = document.createElement("section");
@@ -32,7 +32,7 @@ class Keyboard {
 
         let paragraph = document.createElement("p");
         paragraph.className = "about";
-        paragraph.insertAdjacentHTML("afterbegin", "Клавиатура создана в операционной системе Windows<br>Для переключения языка комбинация: левыe ctrl + alt");
+        paragraph.insertAdjacentHTML("afterbegin", "Клавиатура создана в операционной системе Windows<br>Для переключения языка комбинация: левыe alt + shift");
         document.querySelector(".main").append(paragraph);
     }
 }
