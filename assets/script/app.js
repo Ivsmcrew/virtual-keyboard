@@ -1,10 +1,9 @@
-import { Keyboard } from "../assets/script/keyboard.js"
+import { Keyboard } from "../script/keyboard.js"
 
-export {App}
+export { App }
 
 class App {
     constructor() {
-
     }
 
     runApp() {
